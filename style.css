@@ -1,0 +1,836 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px ;
+    box-shadow: 1px 0px 3px rgb(176, 163, 163);
+}
+.navbar .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav ul li{
+padding-left: 20px;
+cursor: pointer;
+}
+.nav ul li:hover{
+    color: green;
+}
+.navbar .search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search .input{
+    border: 2px solid rgb(192, 182, 182);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+.input input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.search a{
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.search button{
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.search button:hover{
+    background-color: rgb(16, 157, 16);
+}
+.services{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.services h4{
+    padding-left: 20px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.home .text h1{
+    font-size: 80px;
+    color: green;
+}
+.home .text p{
+    padding: 20px 0;
+    font-size:30px ;
+    font-weight: 500;
+}
+.home .text button{
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.home .text button:hover{
+    background-color: rgb(16, 157, 16);
+}
+.home .text .trust{
+    padding-top: 50px;
+}
+.home .text .trust h4{
+    color: rgb(104, 97, 97);
+    font-size: 20px;
+}
+.home .text .trust img{
+    width: 100px;
+    height: 100px;
+    padding-top:10px ;
+    padding-left: 10px;
+}
+.home .img img{
+    width: 440px;
+}
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.upImg img{
+    box-shadow: 1px 0 5px rgb(92, 82, 82);
+}
+.upText{
+    padding: 40px;
+}
+.upText h3{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.upText h5{
+    font-size: 27px;
+    padding-bottom:15px ;
+}
+.upText h5 span{
+    padding-right: 10px;
+}
+.upText p{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-bottom: 7px;
+}
+.upText button{
+    padding: 10px 20px;
+    background-color: green;
+    border-radius: 50px;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.upText .for{
+    color: white;
+    border-color: green;
+}
+.upText .for:hover{
+    background-color: white;
+    color: green;
+}
+.upText .how{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+.upText .how:hover{
+    background-color: green;
+    border: none;
+    color: white;
+}
+.talent{
+    padding: 50px;
+}
+.talent h2{
+    padding: 10px;
+    font-size: 40px;
+}
+.talent p{
+    padding-bottom:20px ;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.talent p a{
+    color: green;
+
+}
+.talent .carts{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.talent .carts .cart{
+    margin: 5px;
+    margin-right: 20px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    background-color: rgb(231, 221, 221);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.talent .carts .cart:hover{
+    background-color: rgb(188, 178, 178);
+}
+.cart h3{
+    font-size: 25px;
+} 
+.cart .skill{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart .skill p{
+    padding: 5px;
+    font-size: 15px;
+}
+.cart .skill p span{
+   color: green;
+}
+.enterprise{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    background-color: #13544e;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.enterprise .enterText{
+    padding: 10px 20px 40px;
+}
+.enterText h6{
+    color: white;
+    font-size: 20px;
+    padding: 10px 0 30px 0;
+}
+.enterText h2{
+    color: white;
+    font-size: 30px;
+    padding: 10px 0 0 0;
+}
+.enterText h3{
+    color: #91e6b3;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.enterText p{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.enterText p span{
+    padding-right: 5px;
+    color: #91e6b3;
+}
+.enterText button{
+    background-color: whitesmoke;
+    color: green;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+}
+.enterImg img{
+    width: 450px;
+    height: 550px;
+    float: right;
+}
+.clients{
+    width: 93%;
+    height: auto;
+    background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(images/find-talent-2x.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+.clients h6{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 50px;
+    font-weight: 400;
+}
+.clients  h2{
+    color: white;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.clients p{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+.clients .clientCarts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.clients .clientCarts .clientCart{
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    width: 350px;
+    margin: 10px;
+    height: 150px;
+
+}
+.clients .clientCarts .clientCart:hover{
+    background-color: white;
+    color: green;
+}
+.clientCart h3{
+    font-size: 40px;
+
+}
+.clientCart h5{
+    font-size: 20px;
+}
+.work{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: 50px;
+    background-color: blue;
+    flex-wrap: wrap;   
+}
+.work .workImg img{
+    width:600px;
+    height: 570px;
+}
+.workText{
+    padding:10px  ;
+
+}
+.workText h6{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+.workText h3{
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+}
+.workText p{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+.workText .endText{
+    border-top: 1px solid white;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.endText h4{
+    padding-top: 10px;
+    color: white;
+    padding-right: 30px;
+}
+.workText button{
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: blue;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+
+}
+.workText button:hover{
+    background-color: rgb(221, 206, 206);
+}
+.support{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+.support .supportText h2{
+    font-size: 40px;
+    color:#13544e;
+    font-weight: 400;
+}
+.support .supportText h5{
+    padding-top:10px ;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.support .supportText button{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    padding: 10px 20px ;
+    font-size: 20px;
+    border-radius:50px;
+}
+.support .supportImg img{
+    width: 200px;
+}
+.footer{
+    margin: 50px;
+    padding: 30px;
+    background-color: rgb(8, 64, 8);
+    border-radius: 10px;
+}
+.footer .footerFollow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footerFollow .follow{
+    display: flex;
+    align-items: center;
+}
+.footerFollow .follow h4{
+    color: white;
+}
+.footerFollow .follow span{
+    color: white;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+.footerFollow .mobile{
+    display: flex;
+    align-items: center;
+}
+.footerFollow .mobile h4{
+    color: white;
+}
+.footerFollow .mobile span{
+    color: white;
+    padding-left: 10px;
+}
+.footer .footerCopy{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.footer .footerCopy h3{
+    color: white;
+    padding-right: 20px;
+}
+.footer .footerCopy p{
+    color: white;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1050px){
+    .up{
+        flex-wrap: wrap;
+        }
+        .support .supportImg img{
+           padding-top: 10px;
+        }  
+        .footer{
+            margin: 40px;
+        }      
+}
+
+
+
+@media(max-width:850px){
+    .nav ul{
+        display: none;
+    }
+    .search .input{
+        display: none;
+    }
+    .services{
+        display: none;
+    }
+    .home{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .work{
+        margin: 40px;
+    }
+    .footer .footerCopy{
+        flex-wrap: wrap;
+    }
+    .footer .footerCopy h3{
+        padding: 20px;
+    }
+}
+@media(max-width:700px){
+    .home .text h1{
+        font-size: 60px;
+    }
+    .home .text p{
+        padding: 20px 0;
+        font-size:20px ;
+        font-weight: 400;
+    }
+    .home .text button{
+        padding: 8px 15px;
+        font-size: 13px;
+    }
+    .work{
+        margin: 30px;
+    }
+    .work .workImg img{
+        width: 530px;
+        height: 480px;
+    }
+}
+@media(max-width:620px){
+    .up{
+        padding: 30px;
+    }
+    .upImg img{
+        width: 450px;
+    }
+    .upText{
+        padding: 30px;
+    }
+    .upText h3{
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    .upText h5{
+        font-size: 20px;
+        padding-bottom:10px ;
+    }
+    .upText h5 span{
+        padding-right: 7px;
+    }
+    .upText p{
+        font-size: 15px;
+        padding-left: 15px;
+        padding-bottom: 5px;
+    }
+    .upText button{
+        padding: 5px 12px;
+        font-size: 15px;
+        margin: 7px;
+    }
+    .enterprise{
+        margin: 40px;
+    }
+    .clients  h2{
+        font-size: 40px;
+    }
+    .clients p{
+        font-size: 22px;
+        padding-bottom: 40px;
+    }
+    .work{
+        margin: 20px;
+    }
+    .work .workImg img{
+        width: 500px;
+        height: 460px;
+    }
+    .footer{
+        margin: 30px;
+
+    }
+    .footer .footerFollow {
+        flex-wrap: wrap;
+        
+    }
+    .footer .footerFollow .follow{
+        padding-bottom: 10px;
+    }
+}
+@media(max-width:520px){
+    .home .text h1{
+        font-size: 40px;
+    }
+    .home .text p{
+        padding: 15px 0;
+        font-size:18px ;
+    }
+    .home .text button{
+        font-size: 11px;
+    }
+    .home .text .trust{
+        padding-top: 30px;
+    }
+    .home .text .trust h4{
+        font-size: 15px;
+    }
+    .home .text .trust img{
+        width: 80px;
+        height: 80px;
+        padding-top:7px ;
+    }
+    .home .img img{
+        width: 350px;
+    }
+    .upImg img{
+        width: 380px;
+    }
+    .enterprise{
+        margin: 30px;
+    }
+    .enterprise .enterImg img{
+        width: 400px;
+        height: 450px;
+    }
+    .enterText h6{
+        font-size: 15px;
+    }
+    .enterText h2{
+        font-size: 20px;
+    }
+    .enterText h3{
+        font-size: 30px;
+        padding-bottom: 8px;
+    }
+    .enterText p{
+        font-size: 15px;
+        padding-top: 8px;
+    }
+    .enterText button{
+        margin-top: 15px;
+    }
+    .work{
+        margin: 15px;
+    }
+    .work .workImg img{
+        width: 400px;
+        height: 370px;
+    }
+}
+@media(max-width:450px){
+
+    .up{
+        padding: 20px;
+    }
+    .upImg img{
+        width: 80%;
+    }
+    .upText{
+        padding: 20px;
+    }
+    .upText h3{
+        font-size: 25px;
+        padding-bottom: 12px;
+    }
+    .upText h5{
+        font-size: 17px;
+        padding-bottom:7px ;
+    }
+    .upText h5 span{
+        padding-right: 5px;
+    }
+    .upText p{
+        font-size: 12px;
+        padding-left: 12px;
+        padding-bottom: 3px;
+    }
+    .upText button{
+        padding: 5px 12px;
+        font-size: 15px;
+        margin: 2px;
+    }
+    .talent h2{
+        font-size: 30px;
+    }
+    .talent p{
+        font-size: 15px;
+    }
+    .talent .carts .cart{
+        margin-right: 15px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+        padding-right: 40px;
+    }
+    .enterprise .enterImg img{
+        width: 300px;
+        height: 400px;
+    }
+    .clients  h2{
+        font-size: 35px;
+    }
+    .clients p{
+        font-size: 17px;
+        padding-bottom: 30px;
+    }
+    .clients .clientCarts .clientCart{
+        width: 100%;
+        margin: 8px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .clientCart h3{
+        font-size: 30px;
+    
+    }
+    .clientCart h5{
+        font-size: 15px;
+    }
+    .work{
+        margin: 10px;
+    }
+    .work .workImg img{
+        width: 330px;
+        height: 290px;
+    }
+    .support{
+        margin: 30px;
+    }
+
+    
+    .footer{
+        margin: 10px;
+    }
+    .footer .footerFollow{
+        padding: 15px;
+    }
+    
+    .footer .footerCopy{
+        padding: 10px;
+    }
+    .footer .footerCopy h3{
+        padding-right: 15px;
+    }
+    .footer .footerCopy p{
+        padding-left: 10px;
+    }
+    
+    
+    
+    
+    
+}
+
+@media(max-width:370px){
+    .home .text h1{
+        font-size: 30px;
+    }
+    .home .text p{
+        padding: 10px 0;
+        font-size:14px ;
+    }
+    .home .text button{
+        font-size: 10px;
+    }
+    .home .text .trust{
+        padding-top: 20px;
+    }
+    .home .text .trust h4{
+        font-size: 12px;
+    }
+    .home .text .trust img{
+        width: 60px;
+        height: 60px;
+    }
+    .home .img img{
+        width: 250px;
+    }
+    .upText h3{
+        font-size: 20px;
+    }
+    .upText h5{
+        font-size: 15px;
+    }
+    .upText p{
+        font-size: 10px;
+    }
+    .upText button{
+        font-size: 10px;
+    }
+    .enterprise .enterImg img{
+        width: 250px;
+        height: 300px;
+    }
+    .enterText h6{
+        font-size: 10px;
+    }
+    .enterText h2{
+        font-size: 12px;
+    }
+    .enterText h3{
+        font-size: 20px;
+    }
+    .enterText p{
+        font-size: 12px;
+    }
+    .enterText button{
+        margin-top: 10px;
+    }
+    .work .workImg img{
+        width: 270px;
+        height: 230px;
+    }
+}
